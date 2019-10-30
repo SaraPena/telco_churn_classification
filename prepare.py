@@ -81,7 +81,7 @@ payment_ohe = ohe.fit_transform(df[['payment_type_id']])
 labels_payment = list(np.array(df.payment_type.value_counts().index))
 
 payment_df = pd.DataFrame(payment_ohe, columns = labels_payment, index = df.index)
-payment_df.info()
+#payment_df.info()
 
 # internet serivce ohe
 ohe = OneHotEncoder(sparse = False, categories = 'auto')
