@@ -1,0 +1,8 @@
+.DS_Store
+env.py
+.ipynb_checkpoints/
+__pycache__
+.vscode/
+.__pycache__/
+churn_decision_tree
+churn_decision_tree.pdf
